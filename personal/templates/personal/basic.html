@@ -1,0 +1,9 @@
+{% extends "personal/header.html" %}
+{% block content %}
+
+<div style="padding-top: 84px; padding-left: 20px;">
+	{% for c in content%}
+	   <p>{{c}}</p>
+	{% endfor %}
+	</div>
+{% endblock %}
